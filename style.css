@@ -1,0 +1,59 @@
+
+  .ROW
+  {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+  }
+  .COLUMN
+  {
+    flex: 50%;
+    padding:0 4px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 40px;
+    
+  }  
+  .COLUMN img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 300px; max-width: 300px;
+}
+  .ucl
+  {
+    margin-right: auto;
+    align-items: left;
+  }
+  h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
